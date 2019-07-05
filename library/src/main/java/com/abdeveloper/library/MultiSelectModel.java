@@ -27,11 +27,11 @@ public class MultiSelectModel {
         this.name = name;
     }
 
-    Boolean getSelected() {
+    public Boolean getSelected() {
         return isSelected;
     }
 
-    void setSelected(Boolean selected) {
+    public void setSelected(Boolean selected) {
         isSelected = selected;
     }
 }
